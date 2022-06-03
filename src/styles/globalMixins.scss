@@ -1,0 +1,48 @@
+/* Global mixins */
+
+/* Sizes */
+@mixin setSize($width: 100px, $height: 100px) {
+    width: $width;
+    height: $height;
+}
+
+/* Containers */
+@mixin limitedContainer($maxWidth) {
+    max-width: $maxWidth;
+    margin: auto;
+}
+
+/* Flexbox */
+@mixin flexCenterContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Grid */
+@mixin gridContainer($layoutColumns: 1fr, $columnGap: 0, $rowGap: 0) {
+    display: grid;
+    grid-template-columns: $layoutColumns;
+    column-gap: $columnGap;
+    row-gap: $rowGap;
+}
+
+@mixin gridAutoContainer($autoType: auto-fit, $min: 100px, $max: 1fr, $columnGap: 0, $rowGap: 0) {
+    display: grid;
+    grid-template-columns: repeat($autoType, minmax(min(100%, $min), $max));
+    column-gap: $columnGap;
+    row-gap: $rowGap;
+}
+
+/* Borders */
+@mixin circularShape {
+    border-radius: 50%;
+}
+
+/* Images */
+@mixin responsiveImage($size) {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    object-fit: $size;
+}

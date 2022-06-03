@@ -1,0 +1,18 @@
+/* TicketSearch Styles */
+.component-ticket-search {
+    width: 250px;
+    .component-ticket-search-input[type=text] {
+        width: 100%;
+        border: none;
+        border-radius: 4px;
+        font-size: 1rem;
+        background-color: white;
+        padding: 12px 20px 12px 40px;
+        background-image: url('https://www.w3schools.com/css/searchicon.png');
+        background-position: 10px 10px; 
+        background-repeat: no-repeat;
+        &:focus {
+            outline: 2px solid gold; 
+        }
+    }
+}

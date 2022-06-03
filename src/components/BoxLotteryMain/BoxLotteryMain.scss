@@ -1,0 +1,51 @@
+/* Imports */
+@import "styles/globalMixins.scss";
+
+/* Styles */
+.component-box-lottery {
+    position: relative;
+    @include gridContainer(1fr, 0.5rem, 0.5rem);
+    .component-box-lottery-label-container {
+        @include flexCenterContainer;
+        .component-box-lottery-number-container {
+            @include setSize(40px, 40px);
+            @include flexCenterContainer;
+            @include circularShape;
+            border: none;
+            user-select: none;
+            background-color: #ecc30b;
+            .component-box-lottery-number {
+                font-size: 1.5rem;
+                color: #fafafa;
+            }
+        }
+        .component-box-lottery-main-btn {
+            @include setSize(40px, 40px);
+            @include flexCenterContainer;
+            @include circularShape;
+            border: none;
+            @include setSize(45px, 45px);
+            background-color: #ecc30b;
+            .component-box-lottery-label {
+                font-size: 1.5rem;
+                color: #fafafa;
+            }
+        }
+    }
+    .component-box-lottery-image-container {
+        .component-box-lottery-image {
+            @include responsiveImage(contain);
+            height: 90px;
+        }
+    }
+    .component-box-lottery-title-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .component-box-lottery-title {
+            color: #303030;
+            font-weight: 700;
+            font-size: 1rem;
+        }
+    }
+}
