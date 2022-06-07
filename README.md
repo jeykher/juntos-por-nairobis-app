@@ -1,1 +1,2 @@
-# HAOTM SOFTWARES JUNTOS POR NAIROBIS APP @ Jeykher Yendes - 2022
+# Juntos Por Nairobis App 
+

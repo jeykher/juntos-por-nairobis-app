@@ -1,34 +1,18 @@
-# App configuration
+# Juntos Por Nairobis App
 
-## Repositories
+## Description
 
-```javascript
-juntosPorNairobisApp: {
-    name: "juntos-por-nairobis-app",
-    members: [
-        {
-            name: "Jeykher",
-            email: "jeykheryendes@gmail.com"
-        }
-    ],
-    repositories: [
-        bitbucket: {
-            httpUrl: "https://Jeykher@bitbucket.org/HatomSoftwares/juntos-por-nairobis-app.git"
-        },
-        gitlab: {
-            httpUrl: "https://Jeykher@gitlab.com/h2196/juntos-por-nairobis-app.git"
-        },
-        github: {
-            httpUrl: "https://github.com/hatomsoftwares/juntos-por-nairobis-app.git"
-        }
-    ],
-    vscodeColorSpace: "#ca3f79",
-    deployments: {
-        vercel: {
-            app: {
-                url: "https://juntos-por-nairobis-app.vercel.app/"
-            }
-        }
-    }  
-}
-```
+This application was developed to raise funds through a raffle for a cancer patient.
+Basically users register with a corresponding ticket number and then participate in a live draw.
+
+## Bitbucket repository
+
+https://Jeykher@bitbucket.org/Jeykher/juntos-por-nairobis-app.git
+
+## Gitlab repository
+
+https://Jeykher@gitlab.com/Jeykher/juntos-por-nairobis-app.git
+
+## Github repository
+
+https://github.com/jeykher/juntos-por-nairobis-app.git
